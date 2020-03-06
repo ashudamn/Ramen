@@ -4,10 +4,12 @@ import {DataGathererService} from './services/data-gatherer.service';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import { DataDisplayerComponent } from './data-displayer/data-displayer.component';
+import { SearchComponent } from './search/search.component';
 @NgModule({
   declarations: [
     AppComponent,
-    DataDisplayerComponent
+    DataDisplayerComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,HttpClientModule

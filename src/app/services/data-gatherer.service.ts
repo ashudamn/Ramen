@@ -10,6 +10,6 @@ export class DataGathererService {
 
   }
   public getJson(): Observable<any> {
-    return this.http.get("./assets/TopRamen.json");
+    return this.http.get("assets/TopRamen.json");
   }
 }
